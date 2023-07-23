@@ -9,6 +9,7 @@
     <header>
         <h1>HOJA DE VIDA</h1>
     </header>
+    <img src="img/foto.jpg.jpg" width="200"/>
     <br>
     <h2>INFORMACION PERSONAL</h2>
     <br>
@@ -18,6 +19,15 @@
     <h3>Ubicacion: Cartagena, Colombia.</h3>
     <h3>Telefono: 3012753041</H3>
     <br>
+    <p>Gracias a mi formación especializada, considero que puedo aportar valor y seguir
+        desarrollándome profesionalmente en una compañía que coincida con mis valores
+        y expectativas. Soy una persona emprendedora, que adora los retos y no se rinde fácilmente. Muy
+        detallista y autodidacta cada día, nunca dejo de aprender y tengo un especial don
+        de gentes. Como persona organizada y con una gran motivación, soy capaz de
+        adaptarme a cualquier circunstancia y dar siempre lo mejor de mí en cualquier
+        proyecto, al mismo tiempo que me esfuerzo por trabajar en equipo y fomentar
+        valores como los del compañerismo.</p>
+        <br>
     <a href="https://github.com/dashboard" >Visita mi perfil de GitHub</a> <br>
     <a href="https://www.linkedin.com/in/darwin-guti%C3%A9rrez-06b70727a" >Visita mi perfil de LinkedIn</a>
     <hr>
@@ -71,12 +81,14 @@
     <hr>
     <h2>CONTACTO</h2>
     <br>
-    <label>Contactanos.</label><br>
-    <textarea placeholder="Escribe aqui..." type="texto" name="comentario" cols="50" ></textarea>
-    <button>contactar</button>
+    <form>
+    <label for="email" >Email:</label>
+    <input type="text" name="email"  id="email" >
     <br><br>
-    <input type="texto" name="email" for="email" id="correo" >
-    <p></p>
-
+    <label>Comentario</label><br>
+    <textarea placeholder="Escribe aqui..." id="comentario" name="comentario" cols="50" rows="10" ></textarea>
+    <br><br>
+    <button>Contactar</button>
+    </form>
 </body>
 </html>
